@@ -1,0 +1,26 @@
+[
+  {
+    "name":"Happy Potter",
+    "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+  },
+  {
+    "name":"Hermione Granger",
+    "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+  },
+  {
+  "name":"Ron Weasley",
+  "image": "http://hp-api.herokuapp.com/images/ron.jpg"
+  },
+  {
+    "name":"Draco Malfoy",
+    "image": "http://hp-api.herokuapp.com/images/draco.jpg"
+  },
+  {
+    "name":"Cedric Diggory",
+    "image": "http://hp-api.herokuapp.com/images/cedric.jpg"
+  },
+  {
+    "name":"Hermione Granger",
+    "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+  }
+]
