@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/components/loading.dart';
 import 'package:flutter_application_1/model/student.dart';
+import 'package:flutter_application_1/repository/student_repository.dart';
 import 'package:flutter_application_1/screens/details.dart';
 import 'package:flutter_application_1/service/api.dart';
 
 class GridInfo2 extends StatelessWidget {
-  final api = Api();
+  final _studentRepository = StudentRepository();
   List<Student> students = [];
 
   @override
@@ -15,7 +16,7 @@ class GridInfo2 extends StatelessWidget {
         title: Text('Happy Potter'),
       ),
       body: FutureBuilder<List<Student>>(
-        future: api.readApi(),
+        future: _studentRepository.getAllStudents(),
         builder: (context, snapshot) {
           switch (snapshot.connectionState) {
             case ConnectionState.none:

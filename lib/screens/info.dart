@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/grid_info2.dart';
-import 'package:flutter_application_1/screens/grid_info3.dart';
 
 class Info extends StatelessWidget {
   const Info();
@@ -34,7 +33,7 @@ class Info extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => GridInfo3()),
+                  MaterialPageRoute(builder: (context) => GridInfo2()),
                 );
               },
               child: Text('MARVEL'), //Icon(Icons.arrow_back_outlined),
